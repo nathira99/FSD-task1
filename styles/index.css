@@ -19,7 +19,7 @@
 }
 
 .nav-menu{
-    grid-column: 4/9;
+    grid-column: 3/8;
 }
 
 .nav-list{
@@ -38,7 +38,7 @@ ul li a{
 }
 
 .nav-auth{
-    grid-column: 10/13;
+    grid-column: 10/12;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -66,7 +66,7 @@ ul li a{
 }
 
 .c1-img{
-    grid-column: 7/13;
+    grid-column: 6/13;
 }
 
 .container1 h1{
@@ -99,7 +99,7 @@ ul li a{
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
     padding: 2% 0%;
-    margin: 0% 20%;
+    margin: 0% 20% 5%;
 }
 
 .loc{
@@ -158,3 +158,71 @@ ul li a{
     cursor: pointer;
     text-wrap: nowrap;
 }
+
+.container2{
+    background-image: url("../assets/BG.png");
+    padding: 0 0 5%;
+}
+
+.c2{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 5% 0%;
+}
+
+.c2-txt{
+    grid-column: 4/9;
+}
+
+.c2-txt h2{
+    font-size: 2.2em;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 5%;
+}
+
+.c2-txt p{
+    padding: 0% 0% 5% 0%;
+    color: rgb(88, 84, 84);
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    margin: 0% 10%;
+}
+
+.signcard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    padding: 3%;
+    line-height: 2em;
+    width: 25%;
+}
+
+.signcard p{
+    line-height: 1em;
+}
+
+.money{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    padding: 3%;
+    line-height: 2em;
+    width: 25%;
+}
+
+.money p{
+    line-height: 1em;
+}
+
+.map{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    padding: 3%;
+    line-height: 2em;
+    width: 25%;
+}
+
+.map p{
+    line-height: 1em;
+}
+
