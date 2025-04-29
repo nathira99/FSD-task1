@@ -61,7 +61,7 @@ ul li a{
     border: 1px solid #FA7436;
     border-radius: 5px;
     background-color: #FA7436;
-    padding: 2%;
+    padding: 2% 4%;
     cursor: pointer;
 }
 
@@ -71,7 +71,7 @@ ul li a{
 }
 
 .c1-img{
-    grid-column: 6/13;
+    grid-column: 7/12;
 }
 
 .container1 h1{
@@ -325,7 +325,7 @@ ul li a{
 .slide{
     display: flex;
     justify-content: center;
-    padding: 5% 0% 10%;
+    padding: 5% 0% 5%;
 }
 
 .c4{
@@ -421,4 +421,117 @@ ul li a{
 .c4-card3 img{
     margin: 0;
     width: 100%;
+}
+
+.container5{
+    background-image: url("../assets/BG.png");
+    padding: 5% 0 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.review{
+    padding: 2%;
+    white-space: pre-line;
+    margin: 10%;
+}
+
+.review h2{
+    font-size: 2em;
+}
+
+.review p {
+    text-wrap: auto;
+    font-size: 0.9em;
+    color: rgb(88, 84, 84);
+}
+
+.feed{
+    width: 100%;
+    margin: 5%;
+    position: relative;
+    align-self: center;
+}
+
+.feed1{
+    box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    border-radius: 3%;
+    padding: 5%;
+    position: relative;
+    width: 80%;
+    z-index: 100;
+}
+
+.feed p, strong{
+    font-size: 0.85em;
+}
+
+.feed p{
+    color:#2c2b2b;
+}
+.feed1 img{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+
+.feed2{
+    box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    border-radius: 3%;
+    padding: 0 2%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.6;
+    top: 40%;
+    left: 10%;
+
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.container6{
+}
+.container6 h2{
+    font-size: 2.2em;
+    /* align-items: center; */
+    text-align: center;
+    padding: 5% 0;
+}
+.c6-card{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2%;
+}
+.c6-card p{
+    color: #2c2b2b;
+    font-size: 0.9em;
+    padding: 5% 0;
+}
+.c6-card1{ 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    grid-column: 3/5;
+    border-radius: 5%;
+}
+
+.c6-card img{
+    width: 98%;
+}
+
+.c6-card2{ 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    grid-column: 5/7;
+    border-radius: 5%;
+}
+
+.c6-card3{ 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    grid-column: 7/9;
+    border-radius: 5%;
+}
+.c6-card4{ 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    grid-column: 9/11;
+    border-radius: 5%;
 }
