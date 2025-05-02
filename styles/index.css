@@ -90,6 +90,8 @@
   background-color: #ddd;
 }
 
+
+
 /* .menu:active{
   display: block;
 } */
@@ -263,8 +265,12 @@ img {
 .money {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
   padding: 3%;
-  line-height: 2em;
+  line-height: 1em;
   width: 25%;
+}
+
+.money h3{
+  padding: 10% 5% 0% 0%;
 }
 
 .money p {
@@ -272,10 +278,14 @@ img {
   color: rgb(102, 100, 100);
 }
 
+.map h3{
+  padding: 10% 5% 0% 0%;
+}
+
 .map {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
   padding: 3%;
-  line-height: 2em;
+  line-height: 1em;
   width: 25%;
 }
 
@@ -408,7 +418,7 @@ img {
 .c4-card1 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
   border-radius: 5%;
-  padding: 0 0 3%;
+  /* padding: 0 0 3%; */
   /* grid-column: 3/5; */
 }
 
@@ -596,7 +606,7 @@ strong {
 }
 
 .footer {
-  background-image: url(../assets/Bg\\(2\).png);
+  background-image: url(../assets/Bg\ \(2\).png);
   padding: 5%;
 }
 
@@ -639,6 +649,7 @@ strong {
 .f2 {
   display: flex;
   justify-content: space-between;
+  padding: 0%;
 }
 
 /* .container7{
@@ -739,6 +750,12 @@ strong {
         display: none;
     }
 
+    .feed1 img {
+      position: absolute;
+      top: -25%;
+      left: -20%;
+    }
+
     .container1{
         display: grid;
         grid-column: 1/13;
@@ -805,8 +822,20 @@ strong {
       .Vector img{
         display: none;
       }
+      
+      .c2-txt img{
+        display: none;
+      }
 
-      .container5{
+      .card p{
+        display: none;
+      }
+
+      .c4-card{
+        padding: 0% 20% 0% 20%;
+      }
+
+     .container5{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 0 5%;
